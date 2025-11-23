@@ -1,0 +1,8 @@
+Copyright 2025 Dragos-Stefan Vacarasu
+
+This project is a modified version of Multi-HMR by NAVER Corp, making it licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.
+
+The CC BY-NC-SA 4.0 license is located at https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+The original form of the project is available at https://github.com/naver/multi-hmr
+The original copyright notice is available in Multi-HMR_License.txt

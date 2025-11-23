@@ -1,0 +1,36 @@
+/* Hide radio inputs but keep them accessible */
+.rg-item {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.rg-label {
+  padding: 1rem 2.5rem;      /* wider pills                           */
+  font-size: 0.875rem;         /* sm / text-sm                          */
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;   /* gray-300                              */
+  cursor: pointer;
+  font-weight: 500;
+  transition: all .2s ease-in-out;
+}
+.rg-item:checked + .rg-label {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.rg-label {
+  padding: 0.5rem 1.5rem;      /* wider pills                           */
+  font-size: 0.875rem;         /* sm / text-sm                          */
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;   /* gray-300                              */
+  cursor: pointer;
+  font-weight: 500;
+  transition: all .2s ease-in-out;
+}
+.rg-item:checked + .rg-label {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
